@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="javascript/index.js"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVvbO2nmvSK_NRWANOqDiW5AE7qtdPB8A&callback=initMap&libraries=&v=weekly"
@@ -18,12 +18,7 @@
             <div class="logo">
                     <img src="images/uhlogos.png" alt="Logo">
             </div> <!--Logo-->
-<!--             <div class="search">
-                <form>
-                    <input type="search" name="s" placeholder="Search site..">
-                    <input type="submit" value=">">
-                </form>
-            </div> -->
+
             <div class="clearfix"></div>
             <nav class="main-menu">
                 <ul>
@@ -35,7 +30,10 @@
         </header> <!--Header-->
     </div>
 
-    <div id="map"></div>
+    <div class="aqi_index">
+        <img src="images/aqivalues.png" alt="AQIvalues">
+            <div id="map"></div>
+    </div>
     
     <footer class="main-footer">
         <div class="footer-box">
