@@ -19,7 +19,6 @@ body{
   height: auto;
   display: box;
   margin-left: 45%;
-  /* margin-right: auto; */
 }
 .footer-box > ul{
   margin-top: 10px;
@@ -49,10 +48,14 @@ body{
 }
 
 /* Map stylesheet */
+.aqi_index > img{
+  width: 750px;
+}
 #map {
-  display: block;
+  /* display: block; */
+  position: relative;
   width: 100%;
-  height: 765px;
+  height: 689px;
 }
 .container{
   width: 100%;
@@ -61,11 +64,13 @@ body{
   margin: auto;
 }
 .logo{
-  padding: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+.logo > img{
+  height: 110px;
 }
 .clearfix{
   clear: both;
@@ -97,16 +102,21 @@ body{
 }
 
 /* Product stylesheet */
-.sensordiagram{
-  width: 1070px;
-  height: 390px;
-}
-.diagram{
+.sensor_diagram, .spec_diagram{
   padding: 10px;
 }
-.spec{
-  border-collapse: collapse;
+.sensor_diagram > img{
+  width: 1080px;
+  height: 460px;
+}
+.spec_table{
+  border-collapse: separate;
   border: 1px solid black;
+}
+.hardware_table{
+  border-collapse: separate;
+  border: 1px solid black;
+  margin-top: 10px;
 }
 
 /* About stylesheet */
@@ -121,4 +131,10 @@ body{
   content: "";
   display: table;
   clear: both;
+}
+.overview_diagram, .goal_diagram{
+  padding: 10px;
+}
+.goal_diagram > img{
+  height: 625px;
 }
