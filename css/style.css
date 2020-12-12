@@ -53,15 +53,12 @@ footer{
   clear: both;
 }
 
-/* Map stylesheet */
-.aqi_index > img{
-  width: 750px;
-}
+/* Home stylesheet */
 #map {
   /* display: block; */
   position: relative;
   width: 100%;
-  height: 691px;
+  height: 710px;
 }
 .container{
   width: 100%;
@@ -112,8 +109,8 @@ footer{
   padding: 10px;
 }
 .sensor_diagram > img{
-  width: 1080px;
-  height: 460px;
+  /* width: 1080px;
+  height: 460px; */
 }
 .spec_table{
   border-collapse: separate;
