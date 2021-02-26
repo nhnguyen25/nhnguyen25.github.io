@@ -31,4 +31,4 @@ function initMap() {
     marker.addListener("click", () => {
       infowindow.open(map, marker);
     });
-  }
+}
