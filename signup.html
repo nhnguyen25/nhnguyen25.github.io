@@ -114,12 +114,21 @@ hr {
 </style>
 <body>
 
-  <form class="modal-content" action="/action_page.php">
+  <form method="post" action="index.php">
     <div class="container">
       <h1>Sign Up</h1>
       <p>Please fill out this form to get alerts.</p>
       <hr>
-      <label for="email"><b>Email</b></label>
+      <!-- <label for="first"><b>First</b></label> -->
+      <b>First</b>
+      <input type="text" placeholder="Enter First Name" name="first" required>
+
+      <!-- <label for="last"><b>Last</b></label> -->
+      <b>Last</b>
+      <input type="text" placeholder="Enter Last Name" name="last" required>
+
+      <!-- <label for="email"><b>Email</b></label> -->
+      <b>Email</b>
       <input type="text" placeholder="Enter Email" name="email" required>
 
       <!-- <label for="psw"><b>Password</b></label>
@@ -136,7 +145,7 @@ hr {
 
       <div class="clearfix">
         <button type="button" onclick="history.go(-1)" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
+        <button input type="submit" class="signupbtn">Sign Up</button>
       </div>
     </div>
   </form>
